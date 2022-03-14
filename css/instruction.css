@@ -1,0 +1,45 @@
+.instruction {
+    padding: 103px 0;
+	background-color: #fff;
+}
+
+.instruction-wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.instruction-text {
+    margin-bottom: 100px;
+}
+
+.instruction-title {
+    font-size: 34px;
+    text-align: center;
+}
+
+.instruction-information {
+    font-size: 18px;
+}
+
+.instruction-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.instruction-step {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instruction-step-title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.instruction-step-text {
+    text-align: center;
+    font-size: 18px;
+}
