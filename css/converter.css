@@ -1,0 +1,69 @@
+.converter {
+    padding: 103px 0;
+	background-color: #fff;
+}
+
+.converter-wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eff1f5;
+    padding: 30px;
+}
+
+.original-currency {
+    width: 49%;
+    display: flex;
+    align-items: center;
+}
+
+.origin {
+    width: 80%;
+    height: 40px;
+    font-size: 25px;
+}
+
+#cur1 {
+    width: 16%;
+    height: 46px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.convert__image {
+    width: 40px;
+}
+
+#convert__button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+#convert__button:hover {
+    background-color: #d1d3d6;
+}
+
+.desiral-currency {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.desiral {
+    width: 80%;
+    height: 40px;
+    font-size: 25px;
+}
+
+#cur2 {
+    width: 16%;
+    height: 46px;
+    text-align: center;
+    font-size: 25px;
+}

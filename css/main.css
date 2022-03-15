@@ -34,8 +34,26 @@ nav {
 	margin: 0 auto;
 }
 
+.header-title {
+	color: #E0E0E0;
+}
+
+.header-currency {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#USD, #EUR {
+	font-size: 18px;
+}
+
 .header-title:hover {
 	background-color: #FF3F40;
+}
+
+.header .header-title:hover:nth-child(3) {
+	background-color: transparent;
 }
 
 .title-converter:hover {
